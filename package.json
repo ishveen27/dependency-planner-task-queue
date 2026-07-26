@@ -1,0 +1,26 @@
+{
+  "name": "dependency-planner-and-task-queue",
+  "version": "1.0.0",
+  "description": "Technical assessment: Part A dependency planner + Part B Smart Task Queue API",
+  "main": "partB/src/server.js",
+  "scripts": {
+    "start": "node partB/src/server.js",
+    "dev": "node partB/src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
